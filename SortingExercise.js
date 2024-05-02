@@ -38,7 +38,6 @@ function sorting3(array) {
     const left = [];
     const right = [];
     let mid = array[0];
-    // console.log(mid);
     for (let i = 1; i < size; i++) {
         if (array[i] < mid) {
             left.push(array[i]);
